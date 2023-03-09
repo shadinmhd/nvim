@@ -1,0 +1,6 @@
+require("plugins")
+require("config.keymap")
+require("config.options")
+require("plugin.nvimtree")
+require("plugin.nvimlualine")
+require("plugin.tokyonighttheme")
