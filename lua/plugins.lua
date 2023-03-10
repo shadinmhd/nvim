@@ -6,6 +6,14 @@ return require('packer').startup(function(use)
   use 'nvim-telescope/telescope.nvim'
 	use 'nvim-lua/plenary.nvim'
 	use 'folke/tokyonight.nvim'
+	use "williamboman/mason.nvim"
+  use "williamboman/mason-lspconfig.nvim"
+  use "neovim/nvim-lspconfig"
+	 
+
+	use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+  require("toggleterm").setup()
+end}
 
 	use {
   'nvim-lualine/lualine.nvim',
