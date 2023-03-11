@@ -10,7 +10,7 @@ return require('packer').startup(function(use)
   use "williamboman/mason-lspconfig.nvim"
   use "neovim/nvim-lspconfig"
   
-
+	
 
 	use {
         'nvim-treesitter/nvim-treesitter',
