@@ -22,7 +22,6 @@ return {
 		})
 
 		vim.api.nvim_set_keymap('n', '<leader>f', '<cmd>lua vim.lsp.buf.format()<CR>', { noremap = true, silent = true })
-		vim.api.nvim_set_keymap('n', '<leader>ge', '<cmd>lua vim.diagnostic.open_float()<CR>', { noremap = true, silent = true })
 
 		require('mason').setup({})
 		require('mason-lspconfig').setup({
