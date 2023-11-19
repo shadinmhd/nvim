@@ -1,12 +1,10 @@
 return {
-	"olimorris/onedarkpro.nvim",
+	"navarasu/onedark.nvim",
 	priority = 1000,
 	config = function()
-		require("onedarkpro").setup({
-			options = {
-				transparency = true
-			}
-		})
+		require("onedark").setup {
+			transparent = true
+		}
 		vim.cmd("colorscheme onedark")
 	end
 }
