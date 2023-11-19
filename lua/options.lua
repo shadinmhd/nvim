@@ -14,6 +14,7 @@ local plugins = {
 	scrolloff = 10,
 
 }
+vim.opt.clipboard = 'unnamedplus'
 
 for option, value in pairs(plugins) do
 	vim.opt[option] = value
