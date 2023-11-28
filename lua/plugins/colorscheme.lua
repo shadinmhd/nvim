@@ -3,7 +3,8 @@ return {
 	priority = 1000,
 	config = function()
 		require("onedark").setup {
-			transparent = true
+			transparent = true,
+			style = "warmer"
 		}
 		vim.cmd("colorscheme onedark")
 	end
