@@ -1,3 +1,4 @@
 # nvim
 
-> a simple neovim configuration i personally use 
+> [!Note]
+> a simple neovim configuration i personally use
