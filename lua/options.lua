@@ -10,11 +10,15 @@ local plugins = {
 	smartindent = true,
 	autoindent = true,
 
+	signcolumn = "yes",
+
 	wrap = false,
 	scrolloff = 10,
+
+	clipboard = "unnamedplus",
+	updatetime = 250,
+	timeoutlen = 300
 }
-vim.opt.clipboard = 'unnamedplus'
-vim.g.neovide_scale_factor = 0.85
 
 for option, value in pairs(plugins) do
 	vim.opt[option] = value
