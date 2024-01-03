@@ -17,7 +17,6 @@ local plugins = {
 
 	clipboard = "unnamedplus",
 	updatetime = 250,
-	timeoutlen = 300
 }
 
 for option, value in pairs(plugins) do
