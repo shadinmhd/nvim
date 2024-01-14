@@ -5,6 +5,7 @@ return {
 		require("lualine").setup {
 			sections = {
 				lualine_a = {
+					"fileformat",
 					"mode"
 				},
 				lualine_b = {
@@ -17,13 +18,14 @@ return {
 					require("lsp-progress").progress
 				},
 				lualine_x = {
-
+					"filetype"
 				},
 				lualine_y = {
-
+					"diagnostics",
+					"branch"
 				},
 				lualine_z = {
-
+					"progress"
 				}
 			}
 		}
