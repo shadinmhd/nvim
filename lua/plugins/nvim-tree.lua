@@ -3,14 +3,17 @@ return {
 	version = "*",
 	lazy = false,
 	dependencies = {
-		"nvim-tree/nvim-web-devicons",
+		"ryanoasis/vim-devicons",
 	},
 	config = function()
-		require("nvim-tree").setup ({
+		require("nvim-tree").setup({
 			view = {
 				width = 25
+			},
+			git = {
+				ignore = false
 			}
 		})
-		vim.keymap.set("n","<leader>e",":NvimTreeToggle<CR>", {silent = true} )
+		vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { silent = true })
 	end,
 }
