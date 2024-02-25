@@ -17,8 +17,7 @@
 #### linux
 
 ```bash
-    cd ~/.config
-    git clone https://github.com/shadinmhd/nvim
+    git clone https://github.com/shadinmhd/nvim ~/.config/nvim
     nvim
 ```
 
