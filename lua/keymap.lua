@@ -1,6 +1,7 @@
 vim.g.mapleader = " "
 
 vim.keymap.set("n", "<leader>q", ":qa<CR>" , { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>l", ":noh<CR>" , { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>w", ":wa<CR>" , { noremap = true, silent = true })
 
 vim.keymap.set('n', '<A-j>', '<C-w>j', { noremap = true, silent = true })
