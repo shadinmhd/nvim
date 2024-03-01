@@ -14,6 +14,24 @@
 
 ### setup
 
+#### prerequisites
+
+- cmake
+- c compiles : any of these following will work -> clang,gcc,g++
+- fzf
+- fd
+- git
+- ripgrep
+- lazygit
+
+##### windows
+
+prerequisites install command in windows using winget
+
+```bash
+    winget install cmake llvm.llvm fzf sharkdp.fd lazygit burntsushi.ripgrep.msvc git.git
+```
+
 #### linux
 
 ```bash
