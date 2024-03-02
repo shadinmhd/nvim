@@ -6,23 +6,19 @@
 
 ### prerequisite
 
+- [neovim]()
 - [nodejs](https://nodejs.org/)
 - [cmake]()
 - [fzf](https://github.com/junegunn/fzf)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
-- [neovim]()
+- [fd](https://github.com/shardp/fd)
+- c compiler: any c compiler like gcc,clang,g++
 
 ### setup
 
-#### prerequisites
+#### 1. prerequisites
 
-- cmake
-- c compiles : any of these following will work -> clang,gcc,g++
-- fzf
-- fd
-- git
-- ripgrep
-- lazygit
+first install all required dependecies for the best experience
 
 ##### windows
 
@@ -32,17 +28,23 @@ prerequisites install command in windows using winget
     winget install cmake llvm.llvm fzf sharkdp.fd lazygit burntsushi.ripgrep.msvc git.git
 ```
 
-#### linux
+#### 2. clone dotfile
+
+##### linux
 
 ```bash
     git clone https://github.com/shadinmhd/nvim ~/.config/nvim
-    nvim
 ```
 
-#### windows
+##### windows
 
 ```bash
     cd $env:LOCALAPPDATA
     git clone https://github.com/shadinmhd/nvim
+```
+
+#### 3. start neovim
+
+```bash
     nvim
 ```
