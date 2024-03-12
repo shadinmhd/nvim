@@ -16,7 +16,7 @@ local plugins = {
 	scrolloff = 10,
 
 	clipboard = "unnamedplus",
-	updatetime = 250,
+	updatetime = 100,
 }
 
 for option, value in pairs(plugins) do
