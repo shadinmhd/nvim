@@ -20,7 +20,13 @@ end
 
 M.servers = {
 	tsserver = {},
-	lua_ls = {},
+	lua_ls = {
+		Lua = {
+			diagnostics = {
+				globals = { "vim" }
+			}
+		}
+	},
 	tailwindcss = {},
 	yamlls = {},
 	jsonls = {},
