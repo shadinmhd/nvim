@@ -11,7 +11,7 @@
 - [cmake]()
 - [fzf](https://github.com/junegunn/fzf)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
-- [fd](https://github.com/shardp/fd)
+- [fd](https://github.com/sharkdp/fd)
 - c compiler: any c compiler like gcc,clang,g++
 
 ### setup
