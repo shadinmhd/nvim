@@ -17,6 +17,8 @@ local plugins = {
 
 	clipboard = "unnamedplus",
 	updatetime = 100,
+
+	fillchars = { eob = " " }
 }
 
 for option, value in pairs(plugins) do
